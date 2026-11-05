@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# Zugangsdaten und Geheimnisse
+.env
+.env.*
+*.key
+secrets/
+credentials.json
+
+# IDE
+.idea/
+.vscode/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# TabPFN-Modellgewichte
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Daten und Patientendaten
+data/*
+!data/README.md
+
+# Temporäre Dateien
+*.log
+*.tmp
